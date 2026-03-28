@@ -24,7 +24,9 @@ This project covers the full data engineering lifecycle:
 - **ETL Pipelines** — Extracting, transforming, and loading data from two source systems (CRM and ERP)
 - **Data Quality** — Identifying and resolving real data quality issues including duplicates, nulls, encoding errors, and invalid values
 - **Data Modelling** — Building a star schema with fact and dimension tables for analytical queries
-- **Analytics** — Writing SQL-based reports for customer behaviour, product performance, and sales trends
+- **Analytics** — Writing SQL-based reports for customer behaviour, product performance, and sales trends <br><br>
+  
+<img width="1073" height="752" alt="Data_Architecture" src="https://github.com/user-attachments/assets/40e19006-2b4e-4871-9272-1695f18d3f98" />
 
 ---
 
@@ -134,7 +136,9 @@ The Gold layer follows a **Star Schema** with:
 
 - `gold.dim_customers` — Customer demographics and location
 - `gold.dim_products` — Product details, categories, and pricing
-- `gold.fact_sales` — Transactional sales records linked to dimensions
+- `gold.fact_sales` — Transactional sales records linked to dimensions <br><br>
+  
+<img width="1001" height="641" alt="Data Mart (Star Schema)" src="https://github.com/user-attachments/assets/06933385-a97d-4de6-a7ba-255e205cdb72" />
 
 ---
 
